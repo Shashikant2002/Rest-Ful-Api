@@ -19,8 +19,7 @@ const studentSchema = new mongoose.Schema({
     },
     phone: {
         type: Number,
-        minlength: 10,
-        maxlength: 10,
+        minLength: 10,
         required: true,
     },
     address: {
